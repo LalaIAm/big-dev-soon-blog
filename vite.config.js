@@ -11,6 +11,7 @@ export default defineConfig({
       src: resolve(__dirname, 'src'),
     },
   },
+  base: '/big-dev-soon-blog/',
   esbuild: {
     target: 'es2021',
     loader: 'jsx',
