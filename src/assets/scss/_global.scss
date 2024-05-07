@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+$mukta: Mukta;
+
+@font-face {
+  font-family: 'Mukta';
+  src: url('../fonts/Mukta/Mukta-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Mukta';
+  src: url('../fonts/Mukta/Mukta-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Mukta';
+  src: url('../fonts/Mukta/Mukta-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf');
+  font-weight: 800;
+}
+
+$mukta: 'Mukta';
+
+$black: #000;
+$white: #fff;
+$primary: #e8b500;;
+
+:root {
+    --mukta: $mukta;
+
+    --font-size-3xl-9: 1.431rem;
+
+    --black: #000;
+    --white: #fff;
+    --yellow: #e8b500;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}

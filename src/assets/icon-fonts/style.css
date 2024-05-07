@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icon-fonts';
+  src:  url('fonts/icon-fonts.eot?kbczrd');
+  src:  url('fonts/icon-fonts.eot?kbczrd#iefix') format('embedded-opentype'),
+    url('fonts/icon-fonts.ttf?kbczrd') format('truetype'),
+    url('fonts/icon-fonts.woff?kbczrd') format('woff'),
+    url('fonts/icon-fonts.svg?kbczrd#icon-fonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon-fonts' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+  content: "\e900";
+}
+.icon-arrow-left:before {
+  content: "\e901";
+}
+.icon-arrow-right:before {
+  content: "\e902";
+}
+.icon-close:before {
+  content: "\e903";
+}
+.icon-facebook:before {
+  content: "\e904";
+}
+.icon-hamburger-menu:before {
+  content: "\e905";
+}
+.icon-instagram:before {
+  content: "\e906";
+}
+.icon-mail:before {
+  content: "\e908";
+}
+.icon-rss:before {
+  content: "\e909";
+}
+.icon-search:before {
+  content: "\e90a";
+}
+.icon-twitter:before {
+  content: "\e90b";
+}
