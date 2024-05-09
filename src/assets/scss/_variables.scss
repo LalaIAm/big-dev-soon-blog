@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+$font-family-sans-serif: 'Mukta';
+$headings-font-family: 'Playfair Display';
+
+$yellow: #e8b500;
+
+$primary: $yellow;
+
+.btn, button {
+    outline: none;
+    border: none;
+    border-radius: 125px !important;
+}
